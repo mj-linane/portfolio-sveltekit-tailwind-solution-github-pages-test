@@ -1,11 +1,10 @@
 <script>
 	import HeroImageButton from '$lib/components/hero/HeroImageButton.svelte';
 	import HeroSectionPage from '$lib/components/hero/HeroSectionPage.svelte';
-	import TestimonialGrid
-		from '$lib/components/testimonial/TestimonialGrid.svelte';
+	import TestimonialGrid from '$lib/components/testimonial/TestimonialGrid.svelte';
 </script>
 
-<!-- <HeroImageButton
+<HeroImageButton
 	title="Hero Section 1"
 	subtitle="A custom subtitle"
 	buttonText="A custom button text"
@@ -15,11 +14,8 @@
 	title="Hero Section 2"
 	subtitle="A custom subtitle"
 	buttonText="A custom button text"
-/> -->
+/>
 
+<HeroSectionPage />
 
-<HeroSectionPage/>
-
-	<TestimonialGrid/>
-
-
+<TestimonialGrid />
